@@ -1,0 +1,16 @@
+.sami{
+    height: 50px;
+   outline: none;
+   border-radius: 50%;
+   font-size: 30px;
+   height: 95px;  
+   text-decoration: none;     
+   color: #ffffff;                        
+}
+div{
+    text-align: center;
+}
+.markeradElement{
+    background-color:darkcyan;;
+    
+}

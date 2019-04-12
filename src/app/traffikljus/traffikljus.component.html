@@ -1,0 +1,8 @@
+<div style="text-align:center">
+  <span class="dot" [ngClass]="{'redLight': state== 0 || state == 1}"></span>
+  <span class="sami" [ngClass]="{'yellowLight': state==1 || state == 3}"></span>
+  <span class="sam" [ngClass]="{'greenLight': state == 2 }"></span> <br>
+ 
+  <input class="sam1" type="button" value="Nästa Signal" (click)="onRegisterClick()" ><br>
+
+  </div>

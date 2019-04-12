@@ -1,0 +1,11 @@
+<div>
+<div class="sami" *ngFor="let mindrom of minLista; index as i">
+  <div (click)=makeradElement(mindrom)
+  [class.markeradElement]="valdDrom.includes(mindrom)"
+  >
+  {{i+1}} 
+  {{mindrom}}
+  </div>
+</div>
+</div>
+

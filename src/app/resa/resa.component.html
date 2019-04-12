@@ -1,0 +1,13 @@
+<app-resechild *ngFor='let resa of reseplats'
+[reseplats]="resa.destination"
+[rutt]="resa.rutt"
+(onSelected)="valdResa($event)"
+>
+</app-resechild>
+
+<div class="drom" *ngIf='!valdDestination'>
+  tryck för att visa resan
+</div>
+<div *ngIf='valdDestination'>
+rutt {{valdDestination.rutt}} 
+</div>
